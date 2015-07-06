@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96EC91D81B4A9ABC00D1275C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EC91D71B4A9ABC00D1275C /* AppDelegate.swift */; };
-		96EC91DA1B4A9ABC00D1275C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EC91D91B4A9ABC00D1275C /* ViewController.swift */; };
-		96EC91DD1B4A9ABC00D1275C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EC91DB1B4A9ABC00D1275C /* Main.storyboard */; };
+		963F4A341B4ABAE100E900D7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963F4A331B4ABAE100E900D7 /* HomeViewController.swift */; };
+		963F4A361B4ABC5B00E900D7 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963F4A351B4ABC5B00E900D7 /* MessageViewController.swift */; };
+		963F4A381B4ABC7900E900D7 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963F4A371B4ABC7900E900D7 /* DiscoverViewController.swift */; };
+		963F4A3A1B4ABC8600E900D7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963F4A391B4ABC8600E900D7 /* ProfileViewController.swift */; };
+		963F4A3C1B4AC06600E900D7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963F4A3B1B4AC06600E900D7 /* MainViewController.swift */; };
+		96495AB91B4AA57400BD71EA /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96495AB81B4AA57400BD71EA /* Tool.swift */; };
+		96EC3B3F1B4AA21A009209F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EC3B3E1B4AA21A009209F7 /* AppDelegate.swift */; };
 		96EC91DF1B4A9ABC00D1275C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EC91DE1B4A9ABC00D1275C /* Images.xcassets */; };
-		96EC91E21B4A9ABC00D1275C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96EC91E01B4A9ABC00D1275C /* LaunchScreen.xib */; };
 		96EC91EE1B4A9ABC00D1275C /* NJ__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EC91ED1B4A9ABC00D1275C /* NJ__Tests.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,13 +29,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		963F4A331B4ABAE100E900D7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		963F4A351B4ABC5B00E900D7 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		963F4A371B4ABC7900E900D7 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		963F4A391B4ABC8600E900D7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		963F4A3B1B4AC06600E900D7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		963F4A401B4AC36600E900D7 /* NJ微博-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NJ微博-Bridging-Header.h"; sourceTree = "<group>"; };
+		96495AB81B4AA57400BD71EA /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		96EC3B3E1B4AA21A009209F7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96EC91D21B4A9ABB00D1275C /* NJ微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NJ微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EC91D61B4A9ABB00D1275C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96EC91D71B4A9ABC00D1275C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96EC91D91B4A9ABC00D1275C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		96EC91DC1B4A9ABC00D1275C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96EC91DE1B4A9ABC00D1275C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		96EC91E11B4A9ABC00D1275C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		96EC91E71B4A9ABC00D1275C /* NJ微博Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NJ微博Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EC91EC1B4A9ABC00D1275C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96EC91ED1B4A9ABC00D1275C /* NJ__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJ__Tests.swift; sourceTree = "<group>"; };
@@ -56,6 +63,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		963F4A3D1B4AC22700E900D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				963F4A331B4ABAE100E900D7 /* HomeViewController.swift */,
+				963F4A351B4ABC5B00E900D7 /* MessageViewController.swift */,
+				963F4A371B4ABC7900E900D7 /* DiscoverViewController.swift */,
+				963F4A391B4ABC8600E900D7 /* ProfileViewController.swift */,
+				963F4A3B1B4AC06600E900D7 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		963F4A3E1B4AC26000E900D7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				96495AB81B4AA57400BD71EA /* Tool.swift */,
+				96EC3B3E1B4AA21A009209F7 /* AppDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		96EC91C91B4A9ABB00D1275C = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +105,11 @@
 		96EC91D41B4A9ABB00D1275C /* NJ微博 */ = {
 			isa = PBXGroup;
 			children = (
-				96EC91D71B4A9ABC00D1275C /* AppDelegate.swift */,
-				96EC91D91B4A9ABC00D1275C /* ViewController.swift */,
-				96EC91DB1B4A9ABC00D1275C /* Main.storyboard */,
+				963F4A401B4AC36600E900D7 /* NJ微博-Bridging-Header.h */,
 				96EC91DE1B4A9ABC00D1275C /* Images.xcassets */,
-				96EC91E01B4A9ABC00D1275C /* LaunchScreen.xib */,
 				96EC91D51B4A9ABB00D1275C /* Supporting Files */,
+				963F4A3E1B4AC26000E900D7 /* Other */,
+				963F4A3D1B4AC22700E900D7 /* Controllers */,
 			);
 			path = "NJ微博";
 			sourceTree = "<group>";
@@ -192,8 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96EC91DD1B4A9ABC00D1275C /* Main.storyboard in Resources */,
-				96EC91E21B4A9ABC00D1275C /* LaunchScreen.xib in Resources */,
 				96EC91DF1B4A9ABC00D1275C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96EC91DA1B4A9ABC00D1275C /* ViewController.swift in Sources */,
-				96EC91D81B4A9ABC00D1275C /* AppDelegate.swift in Sources */,
+				963F4A3C1B4AC06600E900D7 /* MainViewController.swift in Sources */,
+				963F4A3A1B4ABC8600E900D7 /* ProfileViewController.swift in Sources */,
+				963F4A341B4ABAE100E900D7 /* HomeViewController.swift in Sources */,
+				96EC3B3F1B4AA21A009209F7 /* AppDelegate.swift in Sources */,
+				963F4A361B4ABC5B00E900D7 /* MessageViewController.swift in Sources */,
+				96495AB91B4AA57400BD71EA /* Tool.swift in Sources */,
+				963F4A381B4ABC7900E900D7 /* DiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +264,6 @@
 			targetProxy = 96EC91E81B4A9ABC00D1275C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		96EC91DB1B4A9ABC00D1275C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96EC91DC1B4A9ABC00D1275C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		96EC91E01B4A9ABC00D1275C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96EC91E11B4A9ABC00D1275C /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		96EC91EF1B4A9ABC00D1275C /* Debug */ = {
@@ -340,9 +351,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "NJ微博/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NJ微博/NJ微博-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +365,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "NJ微博/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NJ微博/NJ微博-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +427,7 @@
 				96EC91F31B4A9ABC00D1275C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96EC91F41B4A9ABC00D1275C /* Build configuration list for PBXNativeTarget "NJ微博Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +436,7 @@
 				96EC91F61B4A9ABC00D1275C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
